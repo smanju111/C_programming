@@ -1,0 +1,15 @@
+#include<stdio.h>
+main()
+{
+	int n1, n2;
+	
+	printf("\nEnter first number : ");
+	scanf("%d", &n1);
+	printf("\nEnter second number : ");
+	scanf("%d", &n2);
+	
+	if(n1==n2)
+        printf("\nBoth n1 and n2 are equal");
+    else
+        printf("\nBoth n1 and n2 are not equal");
+}
