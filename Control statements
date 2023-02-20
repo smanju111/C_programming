@@ -1,0 +1,31 @@
+/*
+There are three types of control statements
+1. Conditional branching
+2. Conditional looping
+3. Conditional jumping
+
+Conditional branching : All conditional branching statements are used to control the flow of a program
+Five types of Conditional branching statements
+1. simple if
+2. if else
+3. nested if else
+4. if else ladder
+5. switch case
+
+Syntax for Conditional branching statements:
+
+1. simple if :
+
+if(condition)
+           executable statement;
+
+2. if else :
+In if else we have two choices to choose : if-'true' case ; else-'false' case
+
+if(condition)
+           statement 1;
+else
+           statement 2;
+
+
+*/
