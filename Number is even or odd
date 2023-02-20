@@ -1,0 +1,21 @@
+// find even or odd
+
+/*
+
+input : take a number say 52
+process : if remainder of 52 / 2 is 0, then even 
+          otherwise odd number.
+output : even or odd
+
+*/
+#include<stdio.h>
+void main(){
+  
+	  int n, c;
+	  scanf("%d",&n);
+      c = n % 2;
+      if(c==0)
+           printf("even");
+      else
+           printf("odd");
+}
