@@ -1,0 +1,22 @@
+// Highest among n numbers
+// eg : 23, 2, 34, 453, 34 : highest is 453
+#include<stdio.h>
+void main()
+{
+	int n;  // for how many numbers
+	int i;  // for loop variable
+	int ele; //for each element
+	int h;  // for highest value
+	scanf("%d", &n);
+	i=1;
+
+	while(i<=n)
+	{
+	scanf("%d", &ele);
+	if(i==1)h=ele;
+	if(ele>h)
+	   h=ele;
+	i++;
+	}
+	printf("Highest among %d is %d", n, h);	
+}
