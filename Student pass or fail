@@ -1,0 +1,10 @@
+// if statement - if..else
+#include<stdio.h>
+void main(){
+	int m1;
+    scanf("%d", &m1); // 45
+    if(m1 >= 15)
+       printf("Pass");
+    else
+       printf("Fail");
+}
