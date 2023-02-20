@@ -1,0 +1,21 @@
+//Find sum of n numbers (not 1 to n but n different numbers)
+// eg: 13, 234, 235, 2, 32
+#include<stdio.h>
+void main()
+{
+	int n;    // for number of elements
+	int ele;  // for each element
+	int i;    // for loop variable
+	int sum=0; // for summing
+	scanf("%d", &n); // for how many numbers
+	i=1;
+	
+	while(i<=n)
+	{
+	scanf("%d", &ele); // what is the number
+	sum+=ele;
+	i++;	
+	}
+	printf("\nSum of %d numbers = %d", n, sum);
+	
+}
