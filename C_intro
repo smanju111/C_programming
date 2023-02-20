@@ -1,0 +1,41 @@
+#include<stdio.h>        // header file
+
+int gv=10;              // global variable
+
+
+void fun();            // user defined function declaration
+
+int main()
+{   
+    // variable, statement, function
+	int a=100;                                // local variable
+	printf("global varibale=%d \n", gv);      // statement gv=110
+	fun();                                    // function call
+	printf("local variable=%d", a);           // statement
+	
+	
+	// Address and value of a variable
+	int c;
+	printf("Enter c value : \n");
+	scanf("%d", &c);                          // Here & symbol representing address location of c
+	printf("Address location of c=%u", &c);   // to print address location of c
+	printf("c value=%d", c);                  // printing value of c
+	
+	
+	// puts and gets functions
+	char ch;
+	printf("Enter any character \n");
+	ch=getchar();
+	printf("The character is \n");
+	putchar(ch);
+	
+}
+
+void fun()             // user defined function definition or body
+{
+	printf("Hello user welcome to my world \n");
+	int b=20;
+	b=gv+b;                                      // local variable b=20
+	printf("global varibale=%d \n", gv);
+	printf("b value=%d \n", b);
+}
