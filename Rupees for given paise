@@ -1,0 +1,18 @@
+/* Finding rs for given paise
+
+inputs : 3 or 5 -------> ps
+process : rs=ps/100              //ps=rs*100
+output : rs
+
+*/
+
+#include<stdio.h>
+void main()
+{
+	int ps, rs;
+	printf("Enter paise value : ");
+	scanf("%d", &ps);    // input
+	rs=ps/100;           // process
+	printf("Rupees=%d\n", rs);    // output
+	
+}
