@@ -1,4 +1,4 @@
-// factorial of n
+// factorial of n in Ascending order
 // n!
 // 1x2x3x4x5=5!
 #include<stdio.h>
@@ -12,6 +12,24 @@ void main()
  	{
  	 f=f*i;
 	 i++;	
+	 }
+	 printf("\nFactorial = %d", f);
+ }
+ 
+ 
+ // factorial of n in Descending order
+// n!
+// 5x4x3x2x1=5!
+#include<stdio.h>
+void main()
+ {
+ 	int n, f;
+ 	scanf("%d", &n);
+ 	f=1;
+ 	while(n>0)   //f=fxn
+ 	{
+ 	 f=f*n;
+	 n--;	
 	 }
 	 printf("\nFactorial = %d", f);
  }
