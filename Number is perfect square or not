@@ -1,0 +1,22 @@
+// Number is perfect square or not
+
+#include<stdio.h>
+#include<math.h>
+main()
+{
+	int n;
+	
+	printf("Enter first numer\n");
+	scanf("%d", &n);
+	
+	double sval=sqrt(n);
+	printf("Square root value=%lf \n", sval);
+	
+	int num=(int)sval;
+	printf("After conversion number=%d \n", num);
+	
+	if((num*num)==n)
+	   printf("It is perfect square \n");
+	else
+	   printf("It is not a perfect square \n");
+}
