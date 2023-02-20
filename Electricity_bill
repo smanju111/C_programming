@@ -1,0 +1,22 @@
+// process electricity bill
+
+// inputs : readings lmr=870, pmr=1020, urate=2.50
+// process1 : consumed units = pmr-lmr
+// process2 : bill amount = cu * urate
+// output1 : consumed units
+// ouput2 : bill amount
+
+#include<stdio.h>
+void main(){
+	int lmr, pmr, cu;   
+	float urate, amt;             // As urate is in float then the amt is also in float
+	printf("Enter last month reading = ");    // user prompt
+	scanf("\n%d", &lmr);
+	printf("Enter present month reading = ");
+    scanf("%d", &pmr);
+    scanf("%f", &urate);
+    cu = pmr-lmr;
+    amt = cu*urate;
+    printf("Consumed Units = %d", cu);
+    printf("\nBill amount = %f", amt);
+}
