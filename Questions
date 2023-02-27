@@ -14,3 +14,22 @@ Branching:
 12. Calculate student grade
 13. Find out student is pass or fail
 14. Calculate employee tax
+
+(Simple if, if-else, nested if)
+15. Assign grades to the students based on the following
+Avg          grade
+>=70          A
+>=60          B
+>=50          C
+>=40          D
+<40           -
+
+16.Prepare Electric Bill based on the following
+CU          Rate per Unit
+Upto 50     1.50
+51-99       2.50
+100-199     3.50
+200-299     4.50
+300 and above 6.00
+Minimum charge is rs.75/-
+Add surcharge for all is rs.20/-
