@@ -1,0 +1,52 @@
+#include<stdio.h>
+void main()
+{
+	int m1, m2, m3, tot;
+	float avg;
+	char res[5];
+	char grd;
+	
+	//inputs 
+	printf("Enter marks in 3 subjects:\n")
+	scanf("%d%d%d", &m1, &m2, &m3);
+	// process stars
+	tot=m1+m2+m3;
+	avg=(float)tot/3.00;
+	if(m1>=35 && m2>=35 && m3>=35) // compound condition
+	{// true block starts here
+		// res = "pass";           // |...|...|...|...|...|
+		/*res[0]='p';
+		res[1]='A';
+		res[2]='S';
+		res[3]='S';
+		res[4]='\0';*/
+		strcpy(res, "PASS");
+		//finding grades
+		if(avg>=70)
+		  grd='A';
+		else
+		   if(avg>=60)
+		  grd='B';
+		else
+		   if(avg>=50)
+		  grd='C';
+		else
+		   if(avg>=40)
+		  grd='D';
+		
+	}// end of true block
+	else   // failed candidate
+	{
+		res[0]='F';
+		res[1]='A';
+		res[2]='I';
+		res[3]='L';
+		res[4]='\0';
+		gra='-';
+	}
+	// output starts now
+	printf("Total:%d", tot);
+	printf("Average:%f", avg);
+	printf("Result:%s", res);
+	printf("Grade:%c", grd);
+} // end of main()
