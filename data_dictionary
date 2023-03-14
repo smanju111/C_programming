@@ -1,0 +1,30 @@
+Ex: 
+Working:
+inputs: read omr, pmr
+process: 
+1. cu = pmr - omr
+2. bill for upto 50 units = cu * -
+
+bill for
+if(cu>=0 and cu<=49)
+     bill = cu * 1.50
+  for if cu>=50 and cu<=99
+     bill = 49 * 1.50 + 31 * 2.50
+     
+output:
+tot, avg, res, grade
+
+m1 = 80
+m2 = 90
+m3 = 30
+tot = 200
+avg = 66.67
+
+                 data dict
+                 ---------
+sno             variable name               purpose
+1.              m1                          input marks in sub1
+2.              m2                          input marks in sub2
+3.              m3                          input marks in sub3
+4.              tot                         total marks
+5.              avg                         average marks
