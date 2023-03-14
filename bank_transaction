@@ -1,0 +1,16 @@
+// Write a program to do banking transaction
+#include<stdio.h>
+int bal = 25000; 
+int d; // d is amount to be debited
+
+int main()
+{
+// debit program
+printf("Enter debit amount: ");
+scanf("%d", &d);
+if(d>bal)
+printf("Insufficient balance");
+else
+printf("Successfully debited");
+return 0;	
+}
