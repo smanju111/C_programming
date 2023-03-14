@@ -33,3 +33,13 @@ Upto 50     1.50
 300 and above 6.00
 Minimum charge is rs.75/-
 Add surcharge for all is rs.20/-
+
+17.Prepare Employee Salary slip based on the following:
+BASIC                 da         pf         esi         hra
+upto 5000             16%        12%        100         15%
+upto 10000            32%        16%        200         20%
+upto 20000            32%        16%        -           20%
+Above 10000           32%        -          -           20%
+-> Find out Gross Salary, Net Salary.
+-> Gross Salary = basic + da + hra
+-> Net Salary = Gross Salary-(pf + esi)
