@@ -45,4 +45,12 @@ main()
   	else
   	printf("fail");
 	
+	/* Assignment operators
+	 c[i][j] = a[i][j] + b[i][j];
+	 variable = data value
+	*/
+	c=a+b;
+	a /= 10;
+	b += 10;
+	
 }
