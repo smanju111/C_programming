@@ -1,13 +1,48 @@
-// Arithmetic operators
+/* 
+An operator is a symbol that is used to perform mathematical calculations or logical calculations.
+Operators are used to manipulate the data between variables.
+Operators:
+1. Arithmetic operators
+2. Relational operators    - Comparing operators
+3. Logical operators       - To process two or more relational expressions (&&, ||, !)
+4. Increment and decrement operators
+5. Assignment operators
+6. Bitwise operators
+7. Conditional operators
+8. Special purpose operators
+*/
+
+
 #include<stdio.h>
 main()
 {
-	int a=10, b=20;
+    int a=10, b=20;
+    
+    // Arithmetic operators	
 	printf("\nAddition=%d", (a+b));
 	printf("\nSubtraction=%d", (a-b));
 	printf("\nMultiplication=%d", (a*b));
 	printf("\nDivision=%d", (a/b));
 	printf("\nModular division=%d", (a%b));
 	
+	// Relational operators
+	printf("\n%d", (a>b)); // false
+	printf("\n%d", (a<b)); // true
+	printf("\n%d", (a>=b));
+	printf("\n%d", (a<=b));
+	printf("\n%d", (a==b));
+	printf("\n%d", (a!=b));
+	
+	// Logical operatoes
+  	int m1, m2, m3;
+  	int sq;
+  	printf("Enter marks=");
+  	scanf("%i%i%i", &m1, &m2, &m3);
+  	printf("Enter sports quota=");
+  	scanf("%i", &sq);
+  	if(m1>=35&&m2>=35&&m3>=35||sq==1)
+  	printf("pass");
+  	else
+  	printf("fail");
 	
 }
