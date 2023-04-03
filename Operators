@@ -53,4 +53,14 @@ main()
 	a /= 10;
 	b += 10;
 	
+	//Increment and decrement operators
+ 	int a, b, c, d, x, y;
+	 x=1; //2
+	 y=2; //3
+	 a=x++; //1
+	 b=++y; //3
+	 c=x--; //2
+	 d=--y; //2
+	 printf("%d %d %d %d %d %d", a, b, c, d, x, y);
+	 
 }
